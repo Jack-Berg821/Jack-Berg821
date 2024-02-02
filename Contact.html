@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <!-- 
+        Greetings students! Explore away and get lost in the world of HTML, CSS, and Bootstrap. Enjoy!
+    -->
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- This changes the name of the tab in your browser when visiting your website-->
+        <title>Automobiles</title>
+
+ 
+
+        <!-- The following code imports Bootstrap 5 into the webpage -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- This links the styles from style.css into this page-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div>
+            <!--Start Navbar -->
+            <nav class = "navbar fixed-top navbar-expand-md navbar-light navbar-color"> <!--Checkout Bootstrap Docs for Other Themes for your Navbar!-->
+                <!-- Start Navbar Container-->     
+                <div class="container-fluid">
+                    <!-- Navbar Brand is where you put your logo, which often links to your homepage-->
+                    <a class="navbar-brand" href="Homepage.html">Sparky's</a>
+                    <!-- This allows for the hamburger menu to show up when the screen is shrunk down-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="Homepage.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Mercedes.html">Mercedes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Porsche.html">Porsche</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="BMW.html">BMW</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Hydropower.html">Hydropower</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="Contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="Technology.html">Technology</a>
+                          </li>
+                          <!-- To add or remove things from the navbar, simply make another li tag with the class 'nav-item' and put a nav-link inside of it (a tag)-->
+                        </ul>
+                      </div>
+                    </div> <!-- End Navbar Container-->
+            </nav>
+
+
+    <!-- Start Container Fluid -->
+    <div class="BMWHeader"> 
+        <h1>Sparky's Autodealer</h1>
+        <p>Contact us</p>
+    </div>
+    <!-- Bootstrap Row Example-->
+    <div class="row">
+
+        <div class="col-sm-8">
+
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class=" sub-header col-sm-5">
+           <strong>Phone numbers</strong>
+            <p>                         </p>
+            <p>Gastonia: 838-392-3745 </p>
+            <p>Charleston 843-864-5062</p>    
+            <p>Myrtle Beach: 940-394-2902</p>
+            <p>Summerville: 494-492-3904 </p>
+            
+            <!--“Corporate Sustainability.” BMW Group Plants, www.bmwgroup-werke.com/spartanburg/en/responsibility/corporate-sustainability.html.  -->
+        </div>
+        <div class=" Phone plant col-sm-7">
+            <img src="Images/Phone.jpg" height= 200 width = 400>
+        </div>
+    </div>
+    <div class="big-boy text-center">
+        <strong> Address</strong>
+        <p>Gastonia: 1845 Remount Rd</p>
+        <p>Charleston: 325 Savannah Highway</p>
+        <p>Myrtle Beach: 510 N Kings Hwy</p>
+        <p>Summerville: 622 Old Trolley Road</p>
+    </div>
+    <div class=row>
+        <div class="col-sm-6">
+            <iframe class="Youtube"width="560" height="375" src="https://www.youtube.com/embed/q8E4PX7X6jA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-6">
+            <iframe class="Youtube" width="560" height="375" src="https://www.youtube.com/embed/XQUaQpoF8xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+    
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="text-center p-4" style="background-color: rgb(255, 255, 255);">
+            © 2021 Copyright: Jack Bergren
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Sparkys.com </a>
+        </div>
+    </footer>
+
+        
+
+
+    </div><!-- End Container Fluid -->
+
+    <!-- This line of code adds bootstrap JavaScript plugins and dependencies-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+
+<!-- Skills for first Week -->
+<!--
+
+  1. Create and place images within a website
+  2. Create and modify navbars (Change the background color)
+  3. Change background colors and other attributes using CSS
+  4. Create links to other pages
+  5. Use Bootstrap, HTML, and CSS documentation to add components into your website
+  6. Use divs to organize content on your webpage
+-->
+
+<!-- Created by Sean Deitrich. NOT FOR PUBLIC USE -->

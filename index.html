@@ -1,0 +1,257 @@
+<!DOCTYPE html> 
+<html>
+    <!-- 
+        Greetings students! Explore away and get lost in the world of HTML, CSS, and Bootstrap. Enjoy!
+    -->
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- This changes the name of the tab in your browser when visiting your website-->
+        <title>Jack's Camera</title>
+        <style>
+          .carousel
+          {
+            max-width: 1250px;
+            margin: auto;
+            padding-bottom: 50px;
+          }
+          .carousel-inner
+          {
+            max-height: 650px;
+          }
+          .carousel-item img
+          {
+            width: 100%;
+            height: auto;
+          }
+          .qoute-image
+          {
+            background-image: url("misc landscapes/DSC01703.JPG");
+            background-size: 1450px;
+            height: 800px;
+            color: white;
+            padding-top: 230px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 25px;
+          }
+          .portfolio-image
+          {
+            position: relative;
+            background-image: url("misc landscapes/DSC02339.jpg");
+            background-size: 1450px;
+            background-position: center;
+            height: 780px;
+            color: white;
+          }
+          .overlay-container
+          {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 20px;
+          }
+          .button-container, .textcontainer
+          {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 5, 10, 0.664);
+            color: white;
+          }
+
+        </style>
+
+
+        <!-- The following code imports Bootstrap 5 into the webpage -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> 
+        <!-- This links the styles from style.css into this page-->
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+          @font-face { font-family: plunct; src: url('plunct.otf'); } 
+        </style>
+
+    </head>
+    <body>
+    <!-- Start Container Fluid -->
+      <div>
+        <!--Start Navbar -->
+          <nav class = "navbar fixed-top navbar-expand-md navbar-dark navbar-color3"> <!--Checkout Bootstrap Docs for Other Themes for your Navbar!-->
+            <!-- Start Navbar Container-->     
+              <div class="container-fluid">
+                <!-- Navbar Brand is where you put your logo, which often links to your homepage-->
+                <a class="navbar-brand" href="index.html">Jack's Camera</a>
+                
+                <!-- This allows for the hamburger menu to show up when the screen is shrunk down-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="photos.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="scrumbleispimp.html"></a>
+                      </li>
+                      <!-- To add or remove things from the navbar, simply make another li tag with the class 'nav-item' and put a nav-link inside of it (a tag)-->
+                    </ul>
+                </div>
+              </div> <!-- End Navbar Container-->
+          </nav>
+        <!-- End Navbar -->
+        <!-- Begin Header -->
+        <div class="header"> 
+            <h1 class="header">Jack's Camera</h1>
+            <h3 class="subheader">Move and Be Moved</h3>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="misc landscapes/DSC_0227.jpg"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Charleston, SC</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="misc landscapes/DSC00689.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Italian Dolomites</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="misc landscapes/DSC02085.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Charleston, SC</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="misc landscapes/DSC02229.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Folly Beach, SC</h5>
+                </div>
+              </div>
+              <div class="carousel-item">                
+                  <img src="misc landscapes/DSC00702.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Italian Dolomites</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="misc landscapes/DSC01961.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carouseltxt">Charleston, SC</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="subheader">
+          <h1 class="subheader3">Stop existing, start living. The moment you cease to dream is the moment you cease to live. Do not fear death, but rather a life without dreams, for that is no life at all. Pursue the horizon. Live in eternal sunshine. Move and Be Moved. The beauty of life is in the present, so start living in it.</h1>
+        </div>
+        <div>
+          <div class="portfolio-image">
+            <div class="overlay-container">
+              <h1 style="font-size: 65px; padding-top: 30px;">My work</h1>
+            </div> 
+            <div class="button-container text-center">
+              <a href="photos.html" class="btn" style="color:white ;">View here</a>
+            </div>
+          </div>
+          <div >
+            <p style="font-size: 30px; text-align: center;">painting our world through the lens of a camera</p>
+          </div>
+          <!--<div class="qoute-image">
+            <p>“Make a radical change in your lifestyle and begin to boldly do things which you may previously never have thought of doing, or been too hesitant to attempt… nothing is more damaging to the adventurous spirit within a man than a secure future. The very basic core of a man's living spirit is his passion for adventure. The joy of life comes from our encounters with new experiences, and hence there is no greater joy than to have an endlessly changing horizon, for each day to have a new and different sun.”― Jon Krakauer, Into the Wild</p>
+          </div>-->
+        </div>
+       <!-- <div class = "row image-row justify-content-evenly">
+          <p style="text-align:center;"><img src="Images/BMWText.png" class="Logo" width="100" height="100"></p>        
+          <img class = "E30" src = "images/ElectricI5.jpg"width="1450" height="1050",>
+          <div class="sub-header"> 
+            <strong>BMW's Electric Future</strong>
+            <p>While BMW was one of the first car manufacturers ever, they are moving more slowly into electric vehicles. However, that does not mean that these cars are of worse quality but actually of better. BMW is known for combining sporty driving mechanics with luxury interior in a really classy way and that is what they are doing and plan to do in the future with their electric lineup.</p>
+          </div>
+          <p style="text-align:center;"><img src="Images/TeslaText.png" class="Logo" width="300" height="210"></p>        
+          <img class = "ModelS" src = "images/ModelS.jpg"width="1450" height="900",>
+          <div class="sub-header">
+            <strong >Tesla: Pioneers</strong>    
+            <p> Tesla was one of the first ever all electric car companies, and certainly the most successful. Founded in 2003 in San Carlos, California, tesla had a slow start to the car business, not releasing their first car, the roadster, until 2008. Tesla is not only a car company but their owner, Elon Musk, is using Teslas profits to develop more efficient batteries that are made of 92% recyled metals and also developing solar panels that look exactly like roof shingles. This ingenious innovation is how tesla plans to make the future electric.</p>
+          </div>
+          <img class = "openingphoto" src = "misc landscapes/DSC_0227.jpg"width="1450" height="770"  ,>
+          </a>
+          <div>
+            <p class="sub-header"> Click in the icons below to view gallery</p>
+          </div>
+         
+          <p style="text-align:center;"><img src="Images/MercedesText.png" class="Logo" width="350" height="100"></p>  
+          <a href="Mercedes.html">
+            <img class = "AMG" src = "images/SLS.jpg"width="1450" height="900",>
+          </a>
+            <div style="text-align: center;">
+              <p class="indextext">Landscape photos</p>
+          </div>
+          
+        </div>
+        -->
+      </div>  
+<footer class="text-center text-lg-start bg-light text-muted">
+  <div class="text-center p-4" style="background-color: rgb(0, 0, 0); color: white; width: 1400px;">
+    © 2023 Copyright: Jack Bergren
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Jack's-Camera.com </a>
+  </div>
+</footer>
+         
+
+    </div><!-- End Container Fluid -->
+
+    <!-- This line of code adds bootstrap JavaScript plugins and dependencies-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+
+<!-- Skills for first Week -->
+<!--
+
+  1. Create and place images within a website
+  2. Create and modify navbars (Change the background color)
+  3. Change background colors and other attributes using CSS
+  4. Create links to other pages
+  5. Use Bootstrap, HTML, and CSS documentation to add components into your website
+  6. Use divs to organize content on your webpage
+-->
+
+<!-- Created by Sean Deitrich. NOT FOR PUBLIC USE -->

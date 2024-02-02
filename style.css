@@ -1,0 +1,376 @@
+.navbar-color
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.navbar-color2
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.navbar-color3
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.header
+{
+    font-size: 110px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center; /* Horizontally Aligns Text */
+    padding: 1%; /*Vertically Aligns Text*/
+}
+.header1
+{
+    font-size: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center; /* Horizontally Aligns Text */
+    padding: 80px; /*Vertically Aligns Text*/
+}
+.gentxt
+{
+    font-size: 22px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 55px;
+
+
+}
+.carouseltxt
+{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center; /* Horizontally Aligns Text */
+    padding: 60px; /*Vertically Aligns Text*/
+}
+.d-block
+{
+    align-content: center;
+    border-right: 90px solid rgb(0, 0, 0);
+    border-left: 50px solid rgb(0, 0, 0);
+    
+    
+}
+.subheader1
+{
+    font-size: 33px;
+    text-align: center; /* Horizontally Aligns Text */ /*Vertically Aligns Text*/
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+}
+.subheader
+{
+    font-size: 33px;
+    text-align: center; /* Horizontally Aligns Text */
+    padding-top: 15px; /*Vertically Aligns Text*/
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+.btn1
+{
+    padding-top: 200px;
+    background-color: rgba(17, 17, 17, 0.36);
+    color: white;
+}
+.foliotitle
+{
+    font-size: 75px;
+    text-align: center; /* Horizontally Aligns Text */
+    padding-top: 65px; /*Vertically Aligns Text*/
+    padding-bottom: 25px;
+    color: white;
+}
+.foliosubheader
+{
+    font-size: 35px;
+    text-align: center; /* Horizontally Aligns Text */
+    padding-top: 20px; /*Vertically Aligns Text*/
+    color: white;
+}
+.subheader2
+{
+    font-size: 35px;
+    /* Horizontally Aligns Text */
+    padding-top: 15px; /*Vertically Aligns Text*/
+    padding-left: 550px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.subheader3
+{
+    color: white;
+    font-size: 33px;
+    text-align: center; /* Horizontally Aligns Text */
+    padding-top: 15px; /*Vertically Aligns Text*/
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 400px;
+    padding-top: 200px;
+}
+.indextext
+{
+    font-size: 20px;
+    text-align: center; /* Horizontally Aligns Text */
+
+}
+.header .btn
+{
+    background-color: rgb(255,255,255);
+}
+
+.sub-header .btn
+{
+    margin: 1%;
+    width: 20rem;
+}
+@font-face 
+{
+    font-family: 'plunct';
+    src: url(Photo-website/plunct.otf) format('otf');
+}
+div 
+{
+    font-family: 'plunct';
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.image-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image-container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img 
+{
+    max-width: 100%;
+    height: auto;
+    margin: 25px;
+    padding: 10px;
+}
+.accordion-item
+{
+    background-color: rgb(255,255,255)
+}
+.ImageBorder
+{
+    border: 60px solid rgb(0, 0, 0)
+}
+.Footer
+{
+    height: 50px
+    
+}
+.AMG
+{
+    border: 60px solid rgb(255,255,255)
+}
+.plant
+{
+   padding: 85px;
+}
+.openingphoto
+{
+    
+    border-right: 80px solid rgb(0, 0, 0);
+    border-left: 60px solid rgb(0, 0, 0);
+    
+    
+}
+.E30
+{
+    border: 60px solid rgb(255,255,255)
+}
+.ModelS
+{
+    border: 60px solid rgb(255,255,255)
+}
+.BMWHeader
+{
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+    padding: 5%; 
+}
+.PorscheHeader
+{
+    background-color: rgb(10, 10, 10);
+    text-align: center; 
+    padding: 5%; 
+}
+.MercedesHeader
+{
+    background-color: rgb(10, 10, 10);
+    text-align: center; 
+    padding: 5%; 
+}
+.HHeader
+{
+    background-color: rgb(140, 145, 150);
+    text-align: center; 
+    padding: 5%; 
+    color: white;
+}
+.paragraph
+{
+    color: white;
+    font-size: 25px;
+}
+.THeader
+{
+    background-color: rgb(38, 185, 104);
+    text-align: center; 
+    padding: 5%; 
+    color: white;
+}
+.Technology
+{
+    background-color: rgb(255, 255, 255);
+}
+.navbar-color4
+{
+    background-color: rgb(140, 145, 150);
+}
+.navbar-color5
+{
+    background-color: rgb(38, 185, 104);
+}
+.Hydropower
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.Mercedes
+{
+    background-color: rgb(10,10,10);
+    color: rgb(255,255,255)
+}
+.Porsche
+{
+    background-color: rgb(10,10,10);
+    color: rgb(255,255,255)
+}
+.card-body
+{
+    background-color: rgb(18, 19, 18);
+    color: rgb(255, 255, 255);
+}
+.card-body
+{
+    background-color: rgba(18, 19, 18, 0);
+
+}
+.customcardimg
+{
+    background-color: rgb(18, 19, 18);
+}
+.sub-header
+{
+    padding: 4rem;
+    margin-bottom: 50px;
+}
+.sub-header2
+{
+    margin-bottom: 300px;
+}
+.citations
+{
+    font-size: 6px;
+}
+.big-boy
+{
+    font-size: 30px;
+    margin-bottom: 6rem;
+}
+
+.car-row
+{
+    margin-bottom: 6rem;
+    margin-top: 100px;
+}
+.Land
+{
+    padding: 85px;
+}
+.Youtube
+{
+    padding: 60px;
+}
+.RR
+{
+    width: 1px;
+    height: 1px;
+}
+.hydro
+{
+    padding:4rem;
+}
+.L
+{
+    padding:2rem;
+}
+.W
+{
+    text-align: center;
+    font-size: 30px;
+}
+.sub-header9
+{
+    padding: 4rem;
+    margin-top: 170px; 
+}
+.Phone
+{
+    margin-bottom: 70px;
+}
+.Atext
+{
+    margin-top: 100px;
+}
+.bee
+{
+    margin-top: 500px;
+}
+.parallax 
+{
+    background-image: url("misc landscapes/DSC00327.JPG");
+    padding-left: 80px;
+    padding-right: 80px;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about
+{
+    font-size: 255px;
+    padding-top: 260px;
+    padding-bottom: 210px;
+    padding-left: 31%;
+}
+.link
+{
+    font-size: 25px;
+    padding-top: 30px;
+    color: white;
+}

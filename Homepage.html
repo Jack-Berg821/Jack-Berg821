@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html>
+    <!-- 
+        Greetings students! Explore away and get lost in the world of HTML, CSS, and Bootstrap. Enjoy!
+    -->
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- This changes the name of the tab in your browser when visiting your website-->
+        <title>Automobiles</title>
+
+
+        <!-- The following code imports Bootstrap 5 into the webpage -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!-- This links the styles from style.css into this page-->
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body>
+    <!-- Start Container Fluid -->
+      <div>
+        <!--Start Navbar -->
+          <nav class = "navbar fixed-top navbar-expand-md navbar-light navbar-color"> <!--Checkout Bootstrap Docs for Other Themes for your Navbar!-->
+            <!-- Start Navbar Container-->     
+              <div class="container-fluid">
+                <!-- Navbar Brand is where you put your logo, which often links to your homepage-->
+                <a class="navbar-brand" href="Homepage.html">Jack's Camera</a>
+                
+                <!-- This allows for the hamburger menu to show up when the screen is shrunk down-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Mercedes.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Porsche.html">Map</a>
+                      </li>
+                      <!-- To add or remove things from the navbar, simply make another li tag with the class 'nav-item' and put a nav-link inside of it (a tag)-->
+                    </ul>
+                </div>
+              </div> <!-- End Navbar Container-->
+          </nav>
+        <!-- End Navbar -->
+        <!-- Begin Header -->
+        <div class="header"> 
+            <h1>Jack's Camera</h1>
+            <h3>Move and Be Moved</h3>
+        </div>
+        
+        <div class="sub-header">
+          <Strong> What are the benefits to electric vehicles</Strong> <p> You may be wondering why we champion electric vehicles as our savior and there is actually a very simple reason why. The fossil fuels that we use to power our cars today are not sustainable long term because fossil fuels are a limited resource. This means that we have no way of recreating them to sustain the demand. What is a renewable resource however is electricity. This can be harvested through many ways; for example we can use wind turbines, build dams to harness hydropower, and use solar panels to harness the sun. The sustainability that electricity brings to the table is why its a such a good option for now and for the future. Shown below are the brands that are leading the pack when it comes to devloping electric vehicles.(and coincidentally the ones we sell) </p>
+        </div>
+        <div>
+          <img src="images/Turbines.jpeg" width="1450" height="950" class= "ImageBorder">
+        </div>
+        <p style="text-align:center;"><img src="Images/Porschetext.png" class="Logo" width="600" height="50"></p>
+        <div class = "row image-row justify-content-evenly">
+          <a href="Porsche.html">
+            <img class = "Gt2rs" src = "images/Taycan.jpg"width="1450" height="850"  ,>
+          </a>
+          <div class="sub-header">
+            <strong>Porsche's Electric Future</strong>
+            <p> Porsche is known for their pairing of style, grace, elegance, and sport in their vehicles and their electric models are no different. Shown above is the Taycan. Priced at 82 thousand this vehicle gives you all the bang for your buck with stunning 0-60 times and lavish interiors.</p>
+          </div>
+           
+          <p style="text-align:center;"><img src="Images/MercedesText.png" class="Logo" width="350" height="100"></p>  
+          <a href="Mercedes.html">
+            <img class = "AMG" src = "images/SLS.jpg"width="1450" height="900",>
+          </a>
+          <div class="sub-header">
+            <strong> Mercedes Electric Future </strong>
+            <p>Mercedes was the first to invent the car and they will be one of the first in the eletcric industry. They plan to come out with a fully electric model of every car by 2025, even high performance vehicles which some brands don't even have the technology to develope yet.</p>
+          </div>
+         
+          <p style="text-align:center;"><img src="Images/BMWText.png" class="Logo" width="100" height="100"></p>        
+          <img class = "E30" src = "images/ElectricI5.jpg"width="1450" height="1050",>
+          <div class="sub-header"> 
+            <strong>BMW's Electric Future</strong>
+            <p>While BMW was one of the first car manufacturers ever, they are moving more slowly into electric vehicles. However, that does not mean that these cars are of worse quality but actually of better. BMW is known for combining sporty driving mechanics with luxury interior in a really classy way and that is what they are doing and plan to do in the future with their electric lineup.</p>
+          </div>
+          <p style="text-align:center;"><img src="Images/TeslaText.png" class="Logo" width="300" height="210"></p>        
+          <img class = "ModelS" src = "images/ModelS.jpg"width="1450" height="900",>
+          <div class="sub-header">
+            <strong >Tesla: Pioneers</strong>    
+            <p> Tesla was one of the first ever all electric car companies, and certainly the most successful. Founded in 2003 in San Carlos, California, tesla had a slow start to the car business, not releasing their first car, the roadster, until 2008. Tesla is not only a car company but their owner, Elon Musk, is using Teslas profits to develop more efficient batteries that are made of 92% recyled metals and also developing solar panels that look exactly like roof shingles. This ingenious innovation is how tesla plans to make the future electric.</p>
+          </div>
+          
+        </div>
+<footer class="text-center text-lg-start bg-light text-muted">
+  <div class="text-center p-4" style="background-color: rgb(255, 255, 255);">
+    © 2021 Copyright: Jack Bergren
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Sparkys.com </a>
+  </div>
+</footer>
+         
+
+    </div><!-- End Container Fluid -->
+
+    <!-- This line of code adds bootstrap JavaScript plugins and dependencies-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
+
+<!-- Skills for first Week -->
+<!--
+
+  1. Create and place images within a website
+  2. Create and modify navbars (Change the background color)
+  3. Change background colors and other attributes using CSS
+  4. Create links to other pages
+  5. Use Bootstrap, HTML, and CSS documentation to add components into your website
+  6. Use divs to organize content on your webpage
+-->
+
+<!-- Created by Sean Deitrich. NOT FOR PUBLIC USE -->
